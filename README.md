@@ -1,3 +1,4 @@
+[![Docker Image CI](https://github.com/aaronhmiller/VAmPI/actions/workflows/docker-image.yml/badge.svg?branch=added_deployments)](https://github.com/aaronhmiller/VAmPI/actions/workflows/docker-image.yml)
 # VAmPI
 **The Vulnerable API** *(Based on OpenAPI 3)*
 ![vampi](https://i.imgur.com/zR0quKf.jpg)
