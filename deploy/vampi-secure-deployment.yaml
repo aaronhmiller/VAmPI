@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    io.kompose.service: vampi-secure
+  name: vampi-secure
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      io.kompose.service: vampi-secure
+  template:
+    metadata:
+      labels:
+        io.kompose.service: vampi-secure
+    spec:
+      containers:
+        - env:
+            - name: vulnerable
+              value: "0"
+          image: erev0s/vampi 
+          name: vampi-secure
+          ports:
+            - containerPort: 5000
+      restartPolicy: Always
