@@ -1,4 +1,4 @@
-[![Docker Image CI](https://github.com/aaronhmiller/VAmPI/actions/workflows/docker-image.yml/badge.svg?branch=added_deployments)](https://github.com/aaronhmiller/VAmPI/actions/workflows/docker-image.yml)
+[![Docker Image CI](https://github.com/aaronhmiller/VAmPI/actions/workflows/docker-image.yml/badge.svg?branch=added_deployments)](https://github.com/aaronhmiller/VAmPI/actions/workflows/docker-image.yml) ![Docker Pulls](https://img.shields.io/docker/pulls/aaronhmiller/vampi)
 # VAmPI
 **The Vulnerable API** *(Based on OpenAPI 3)*
 ![vampi](https://i.imgur.com/zR0quKf.jpg)
