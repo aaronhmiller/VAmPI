@@ -14,5 +14,5 @@ jobs:
       - name: Run OX Security Scan to check for vulnerabilities
         with:
           ox_api_key: ${{ secrets.OX_API_KEY }}
-          ox_host_url: https://foobar.com
+          ox_host_url: https://api.cloud.ox.security
         uses: oxsecurity/ox-security-scan@main
